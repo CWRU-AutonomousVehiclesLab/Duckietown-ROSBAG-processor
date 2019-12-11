@@ -17,7 +17,8 @@ class Logger:
             'step': [
                 observation,
                 action,
-            ]
+            ],
+            'meta':[]
         })
 
     def on_episode_done(self):
